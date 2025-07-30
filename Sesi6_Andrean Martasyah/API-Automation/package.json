@@ -1,0 +1,23 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --reporter mochawesome",
+    "test:watch": "mocha tests --reporter spec --watch",
+    "test:coverage": "nyc mocha tests --reporter spec"
+  },
+  "keywords": [],
+  "author": "Andrean",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
